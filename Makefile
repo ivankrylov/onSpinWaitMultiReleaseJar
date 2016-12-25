@@ -1,3 +1,8 @@
+#
+# "Multi-Release jar" version written by Ivan Krylov, released to the public domain,
+# as explained at http://creativecommons.org/publicdomain/zero/1.0/
+#
+
 JDK8=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/
 JDK9=/Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/
 

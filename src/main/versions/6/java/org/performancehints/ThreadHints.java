@@ -2,6 +2,10 @@
  * Written by Gil Tene, and released to the public domain,
  * as explained at http://creativecommons.org/publicdomain/zero/1.0/
  */
+/*
+ * "Multi-Release jar" version written by Ivan Krylov, released to the public domain,
+ * as explained at http://creativecommons.org/publicdomain/zero/1.0/
+ */
 
 package org.performancehints;
 
