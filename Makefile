@@ -7,7 +7,6 @@ TEST_DIR=test
 build6: ./src/main/versions/6/java/org/performancehints/ThreadHints.java
 	mkdir -p ${BUILD_DIR}/META-INF/versions/6
 	${JDK9}/bin/javac --release 6 -sourcepath ./src/main/versions/6 -d ${BUILD_DIR} ./src/main/versions/6/java/org/performancehints/ThreadHints.java
-	${JDK9}/bin/javac --release 6 -sourcepath ./src/main/versions/6 -d ${BUILD_DIR}/META-INF/versions/6 ./src/main/versions/6/java/org/performancehints/ThreadHints.java
 
 build9: ./src/main/versions/9/java/org/performancehints/ThreadHints.java
 	mkdir -p ${BUILD_DIR}/META-INF/versions/9
