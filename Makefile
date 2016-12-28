@@ -3,8 +3,8 @@
 # as explained at http://creativecommons.org/publicdomain/zero/1.0/
 #
 
-JDK8=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/
-JDK9=/Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/
+JDK8 := $(shell /usr/libexec/java_home -v 8)
+JDK9 := $(shell /usr/libexec/java_home -v 9)
 
 BUILD_DIR=build
 TEST_DIR=test
